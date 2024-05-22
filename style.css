@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+/* Contenitore */
+
+.container {
+    margin: auto;
+    background-color: black;
+    border-radius: 30px;
+    width: 50%;
+    height: 60%;
+    opacity: 0.7;
+}
+
+header {
+    text-align: center;
+}
+
+/* Logo e Titolo */
+
+.logo {
+    margin-top: 50px;
+    width: 200px;
+}
+
+h1 {
+    color: #5df505;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Menu Navigazione */
+
+nav {
+    text-align: center;
+}
+
+.menu {
+    margin: auto;
+    padding: 10px;
+    width: 80%; 
+    background-color: #5df505;
+}
+
+/* Sezione Monopattini */
+
+main {
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: inline-block;
+}
+
+p {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+section {
+    margin: 50px;
+}
+
+.battery {
+    border-radius: 5px;
+    background-color: orange;
+    width: 300px;
+}
+
+.battery2 {
+    border-radius: 5px;
+    background-color: green;
+    width: 600px;
+}
+
+.battery3 {
+    border-radius: 5px;
+    background-color: red;
+    width: 100px;
+}
